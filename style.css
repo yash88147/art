@@ -1,0 +1,72 @@
+.image-fade-in {
+    opacity: 0; /* Initially set the opacity to 0 to hide the image */
+    transition: opacity 0.5s ease-in-out; /* Add a transition for a smooth fade-in effect */
+}
+
+.image-fade-in.loaded {
+    opacity: 1; /* When the "loaded" class is added, set the opacity to 1 to reveal the image */
+}
+
+.bigger{
+    transition: transform 0.3s ease;
+}
+
+.bigger:hover{
+    transform: scale(1.02); 
+}
+
+#eagle {
+    width: 90%;
+    height: auto;
+    margin-left: 5vh;
+}
+
+.firstpageimage {
+    width: 85%;
+    height: auto; /* This ensures that the aspect ratio is maintained */
+    border-radius: 20px;
+}
+
+body{
+    font-family: 'Libre Franklin';
+    background-color: #E0DFDA;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensure the page takes up the full viewport height */
+}
+
+.leftbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-right: 5%; Adjust this value to control the space between title and image */
+    padding-left: 10px;
+    margin-bottom: 6vh;
+}
+
+.righttitle{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.rightbar {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+    /* margin-right: 5%; Adjust this value to control the space between title and image */
+    padding-right: 10vh;
+    margin-bottom: 60vh;
+}
+
+
+.title {
+    padding-top: 50%;
+    padding-bottom: 8%;
+    font-size: 30px;
+    font-weight: 5000;
+}
