@@ -1,3 +1,12 @@
+
+.bigger{
+    transition: transform 0.3s ease;
+}
+
+.bigger:hover{
+    transform: scale(1.02); 
+}
+
 .image-fade-in {
     opacity: 0; /* Initially set the opacity to 0 to hide the image */
     transition: opacity 0.5s ease-in-out; /* Add a transition for a smooth fade-in effect */
@@ -7,12 +16,9 @@
     opacity: 1; /* When the "loaded" class is added, set the opacity to 1 to reveal the image */
 }
 
-.bigger{
-    transition: transform 0.3s ease;
-}
-
-.bigger:hover{
-    transform: scale(1.02); 
+#owl{
+    padding-top: 1vh;
+    padding-bottom: 35vh;
 }
 
 #eagle {
@@ -27,7 +33,8 @@
     border-radius: 20px;
 }
 
-body{
+
+.pageone{
     font-family: 'Libre Franklin';
     background-color: #E0DFDA;
     display: flex;
@@ -38,14 +45,14 @@ body{
     height: 100vh; /* Ensure the page takes up the full viewport height */
 }
 
+
 .leftbar {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    align-items:center;
+    justify-content:center;
     /* margin-right: 5%; Adjust this value to control the space between title and image */
-    padding-left: 10px;
-    margin-bottom: 6vh;
+    padding-left: 1vh;
 }
 
 .righttitle{
@@ -66,7 +73,32 @@ body{
 
 .title {
     padding-top: 50%;
-    padding-bottom: 8%;
     font-size: 30px;
     font-weight: 5000;
 }
+
+#ship{
+    margin-top: 60vh;
+    padding-bottom: 1vh;
+}
+
+
+.pagetwo{
+    font-family: 'Libre Franklin';
+    background-color: #E0DFDA;
+    display: flex;
+    height: 100vh; /* Ensure the page takes up the full viewport height */
+}
+
+.leftside{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+        
+#self{
+    width: 20vh;
+    height: auto; /* This ensures that the aspect ratio is maintained */
+    border-radius: 20px;
+}
+
